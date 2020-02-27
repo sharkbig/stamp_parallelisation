@@ -10,7 +10,8 @@ This reporisation realize the parallelisation in StaMPSv4.0.
 1. matlab 2019b
 2. StaMPSv4.0
 3. Python2.7 and install:
-	* matlab API
+	* matlab pyhton API
+          https://www.mathworks.com/help/matlab/matlab-engine-for-python.html
 	* multiprocessing
 
 ## Recommendation 
@@ -19,7 +20,8 @@ This reporisation realize the parallelisation in StaMPSv4.0.
 2. RAM: 8G (enough)
 
 
-## Usage: stamps -j[1] -s[0] -e[8]
+## Options
+usage: stamps -j[1] -s[0] -e[8]
 Working directory: excute at the parent directory of all PATCH.
 <options>
 	-j: number of process assign, default 1.
